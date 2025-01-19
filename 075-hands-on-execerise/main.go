@@ -42,4 +42,24 @@ func main() {
 	default:
 		fmt.Println("non of the previous were met")
 	}
+
+	//for loop
+
+	for g := 0; g <= 100; g++ {
+		fmt.Println(g)
+	}
+	for g := 0; g < 100; g++ {
+		switch {
+		case x < 4 && y < 4:
+			fmt.Println("both are less than 4")
+		case x > 6 && y > 6:
+			fmt.Println("both are greater than 6")
+		case x > 4 && y <= 6:
+			fmt.Println("x is greater than 4 and y is less than or equal to 6")
+		case y != 5:
+			fmt.Println("y isnot 5")
+		default:
+			fmt.Println("non of the previous were met")
+		}
+	}
 }
